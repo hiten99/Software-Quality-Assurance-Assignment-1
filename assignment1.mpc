@@ -1,0 +1,22 @@
+
+
+project (assignment1) {
+  specific (make) {
+    requires += cpp11
+    compile_flags += -std=c++11
+  }
+  exename = assignment1
+  install = .
+ 
+  Source_Files {
+    driver.cpp
+	vba.cpp
+	rwvba.cpp
+	weak_eq.cpp
+	wr_weak_eq.cpp
+	}
+
+  Template_Files {
+
+  }
+}
